@@ -19,6 +19,8 @@
 		713E08E7193F77D9006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E08CF193F77D9006CA563 /* UIKit.framework */; };
 		713E08EF193F77D9006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E08ED193F77D9006CA563 /* InfoPlist.strings */; };
 		713E08F1193F77D9006CA563 /* DesignNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E08F0193F77D9006CA563 /* DesignNavigationTests.m */; };
+		713E08FD193F7938006CA563 /* DNPlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E08FB193F7938006CA563 /* DNPlaygroundViewController.m */; };
+		713E08FE193F7938006CA563 /* DNPlaygroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713E08FC193F7938006CA563 /* DNPlaygroundViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		713E08EC193F77D9006CA563 /* DesignNavigationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignNavigationTests-Info.plist"; sourceTree = "<group>"; };
 		713E08EE193F77D9006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713E08F0193F77D9006CA563 /* DesignNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignNavigationTests.m; sourceTree = "<group>"; };
+		713E08FA193F7938006CA563 /* DNPlaygroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPlaygroundViewController.h; sourceTree = "<group>"; };
+		713E08FB193F7938006CA563 /* DNPlaygroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPlaygroundViewController.m; sourceTree = "<group>"; };
+		713E08FC193F7938006CA563 /* DNPlaygroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DNPlaygroundViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				713E08DA193F77D9006CA563 /* DNAppDelegate.h */,
 				713E08DB193F77D9006CA563 /* DNAppDelegate.m */,
+				713E08FA193F7938006CA563 /* DNPlaygroundViewController.h */,
+				713E08FB193F7938006CA563 /* DNPlaygroundViewController.m */,
+				713E08FC193F7938006CA563 /* DNPlaygroundViewController.xib */,
 				713E08DD193F77D9006CA563 /* Images.xcassets */,
 				713E08D2193F77D9006CA563 /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				713E08D6193F77D9006CA563 /* InfoPlist.strings in Resources */,
 				713E08DE193F77D9006CA563 /* Images.xcassets in Resources */,
+				713E08FE193F7938006CA563 /* DNPlaygroundViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713E08FD193F7938006CA563 /* DNPlaygroundViewController.m in Sources */,
 				713E08DC193F77D9006CA563 /* DNAppDelegate.m in Sources */,
 				713E08D8193F77D9006CA563 /* main.m in Sources */,
 			);
