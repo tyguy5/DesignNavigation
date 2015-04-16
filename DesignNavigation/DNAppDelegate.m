@@ -17,6 +17,16 @@
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[DNPlaygroundViewController new]];
     
+    [[UINavigationBar appearance] setBarTintColor:[UIColor lightGrayColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    [[UISegmentedControl appearance] setTintColor:[UIColor lightGrayColor]];
+    
+    
+    
+    
+    
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

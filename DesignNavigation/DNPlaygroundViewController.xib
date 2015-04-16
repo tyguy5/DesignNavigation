@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DNPlaygroundViewController">
@@ -13,9 +14,42 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="C3j-IV-0sM">
+                    <rect key="frame" x="121" y="96" width="79" height="29"/>
+                    <segments>
+                        <segment title="Day"/>
+                        <segment title="Nite"/>
+                    </segments>
+                </segmentedControl>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lwZ-hm-asL">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <items>
+                        <barButtonItem title="A" id="Zou-Zg-f6R"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ZpZ-Wj-2wC"/>
+                        <barButtonItem title="B" id="oyJ-1R-bAB"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="LEL-Zw-b5J"/>
+                        <barButtonItem title="C" id="YaX-6g-OQb"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="oH9-Xb-7Ak"/>
+                        <barButtonItem title="D" id="Ton-iQ-b7f"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="m7Z-yC-kdp"/>
+                        <barButtonItem title="E" id="kag-v9-zgG"/>
+                    </items>
+                </toolbar>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1e-zw-XKI">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <items>
+                        <navigationItem title="F G H" id="Gmn-KH-R1a"/>
+                    </items>
+                </navigationBar>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="295" y="301"/>
         </view>
     </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
